@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <label>Select your units:</label>
+    <select name="units" class="unit-selector">
+      <option class="unitFeet" value="feet">Feet</option>
+      <option class="unitMeters" value="meters">Meters</option>
+
+    </select>
+    <br>
+    <label>What is the length of the room?</label>
+    <input class="room-length" type="text" />
+    <br />
+    <label>What is the width of the room?</label>
+    <input class="room-width" type="text" />
+    <button class="btn" type="button" onclick="areaCalc()">Calculate</button>
+    <br />
+    <p class="output"></p>
+    <script defer="" src="./app.js"></script>
+  </body>
+</html>
