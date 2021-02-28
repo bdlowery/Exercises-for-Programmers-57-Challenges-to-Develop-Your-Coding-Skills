@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>#17 - Blood Alcohol Calculator</title>
+
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="logo">Blood Alcohol Calculator</h1>
+    </header>
+    <!-- weight, gender, number of drinks, the amount of alcohol by volume of the drinks consumed, amount of time since last drink -->
+    <div class="container">
+      <label class="weight-label">Weight</label>
+      <input type="text" class="weight-input" />
+      <label>Gender</label>
+      <input type="text" class="gender-input">
+      <label>How many drinks have you had?</label>
+      <input type="text" class="drinks-input">
+      <label>How many ounces of alcohol did you drink?</label>
+      <input type="text" class="ounces-input">
+      <label>How many hours ago did you have a drink?</label>
+      <input type="text" class="last-drink-time-input">
+      <button type="button" class="btn" onclick="baCalc()">Calculate</button>
+
+      <p class="output"></p>
+    </div>
+
+    <script defer="" src="./app.js"></script>
+  </body>
+</html>
