@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1>Temperature Converter</h1>
+  </header>
+  <div class="container">
+    <p>Convert a temperature to either Celsius or Fahrenheit.</p>
+
+    <section class="user-input">
+      <p>Enter the temperature</p>
+      <input type="text" class="user-temperature" placeholder="">
+      <p>Enter the units (C or F)</p>
+      <input type="text" class="user-unit" placeholder="">
+    </section>
+    <button class="btn" type="button" onclick="tempCalc()">Convert</button>
+    <section class="user-output">
+      <p class="output"></p>
+    </section>
+    
+  </div>
+
+  <script defer="" src="./app.js"></script>
+</body>
+</html>
