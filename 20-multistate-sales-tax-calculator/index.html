@@ -21,7 +21,9 @@
           <input type="text" class="order-amount" />
           <p>Enter your state</p>
           <input type="text" class="state-value" />
-          <select name="counties" id="" class="county-selector">
+          <p class="county-select-display" style="visibility: hidden; margin: 0">--Select your county--</p>
+          <select name="counties" class="county-selector" style="visibility: hidden; margin: 0">
+            <option value="select">--Select a county--</option>
             <option value="Eau County">Eau County</option>
             <option value="Dunn County">Dunn County</option>
           </select>
@@ -33,7 +35,7 @@
     <section class="bg-dark output-container">
       <div class="container">
         <div class="flex-container">
-          <p class="output">dummy output text</p>
+          <p class="output"></p>
         </div>
       </div>
     </section>
