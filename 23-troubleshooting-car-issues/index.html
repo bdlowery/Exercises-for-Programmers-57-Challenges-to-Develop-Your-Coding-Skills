@@ -8,13 +8,15 @@
     <title>#23 - Troublshooting Car Issues</title>
   </head>
   <body>
-    <header class="text-center bg-light">
+    <header class="text-center bg-light-purple">
       <div class="header-container">
-        <h1>#23 Troubleshooting Car Issues 🚗</h1>
+        <h1>#23 Troubleshooting Car Issues <span class="car-emoji">🚗</span></h1>
+        <p class="hint">The javascript is bad don't look at it pls ty😬</p>
+
       </div>
     </header>
-
-    <section class="bg-dark">
+<main>
+    <section class="page-content bg-dark-purple">
       <div class="flex-container">
         <p>Is the car silent when you turn the key?</p>
         <div class="flex-buttons">
@@ -35,12 +37,12 @@
 
         <div class="flex-container yes--yes1" style="display: none">
           <p>Clean Terminals and try starting again.</p>
-          <button type="button" class="btn" onclick="buttonClick('reload')">Start over</button>
+          <button type="button" class="btn-start-over" onclick="buttonClick('reload')">Start over</button>
         </div>
 
         <div class="flex-container yes--no1" style="display: none">
           <p>Replace cables and try again.</p>
-          <button type="button" class="btn" onclick="buttonClick('reload')">Start over</button>
+          <button type="button" class="btn-start-over" onclick="buttonClick('reload')">Start over</button>
         </div>
       
     
@@ -56,30 +58,7 @@
 
         <div class="flex-container no--yes1" style="display: none">
           <p>Replace the battery.</p>
-          <p>Replace the battery.</p>
-          <p>Replace the battery.</p>
-          <p>Replace the battery.</p>
-          <p>Replace the battery.</p>
-          <p>Replace the battery.</p>
-          <p>Replace the battery.</p>
-          <p>Replace the battery.</p>
-          <p>Replace the battery.</p>
-          <p>Replace the battery.</p>
-          <p>Replace the battery.</p>
-          <p>Replace the battery.</p>
-          <p>Replace the battery.</p>
-          <p>Replace the battery.</p>
-          <p>Replace the battery.</p>
-          <p>Replace the battery.</p>
-          <p>Replace the battery.</p>
-          <p>Replace the battery.</p>
-          <p>Replace the battery.</p>
-          <p>Replace the battery.</p>
-          <p>Replace the battery.</p>
-          <p>Replace the battery.</p>
-          <p>Replace the battery.</p>
-          
-          <button type="button" class="btn" onclick="buttonClick('reload')">Start over</button>
+          <button type="button" class="btn-start-over" onclick="buttonClick('reload')">Start over</button>
         </div>
 
         <div class="flex-container no--no1" style="display: none">
@@ -92,7 +71,7 @@
 
         <div class="flex-container no--yes2" style="display: none">
           <p>Check spark plug connections.</p>
-          <button type="button" class="btn" onclick="buttonClick('reload')">Start over</button>
+          <button type="button" class="btn-start-over" onclick="buttonClick('reload')">Start over</button>
         </div>
 
         <div class="flex-container no--no2" style="display: none">
@@ -112,16 +91,16 @@
 
         <div class="flex-container no--no3" style="display: none">
           <p>Check to ensure the choke is opening and closing</p>
-          <button type="button" class="btn" onclick="buttonClick('reload')">Start over</button>
+          <button type="button" class="btn-start-over" onclick="buttonClick('reload')">Start over</button>
         </div>
 
         <div class="flex-container no--yes4" style="display: none">
           <p>Get it in for service.</p>
-          <button type="button" class="btn" onclick="buttonClick('reload')">Start over</button>
+          <button type="button" class="btn-start-over" onclick="buttonClick('reload')">Start over</button>
         </div>
       
     </section>
-
+  </main>
     <script defer="" src="./app.js"></script>
   </body>
 </html>
