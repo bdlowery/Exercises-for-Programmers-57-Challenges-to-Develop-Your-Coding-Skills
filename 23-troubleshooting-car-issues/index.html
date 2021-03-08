@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>#23 - Troublshooting Car Issues</title>
+  </head>
+  <body>
+    <header class="text-center bg-light">
+      <div class="header-container">
+        <h1>#23 Troubleshooting Car Issues 🚗</h1>
+      </div>
+    </header>
+
+    <section class="bg-dark">
+      <div class="flex-container">
+        <p>Is the car silent when you turn the key?</p>
+        <div class="flex-buttons">
+          <button type="button" class="btn btn-original-yes" onclick="buttonClick('yes')">Yes</button>
+          <button type="button" class="btn btn-original-no" onclick="buttonClick('no')">No</button>
+        </div>
+      </div>
+    
+
+    
+      <div class="flex-container yes" style="display: none">
+        <p>Are the battery terminals corroded?</p>
+        <div class="flex-buttons">
+          <button type="button" class="btn btn-yes--yes1" onclick="buttonClick('yes yes1')">Yes</button>
+          <button type="button" class="btn btn-yes--no1" onclick="buttonClick('yes no1')">No</button>
+        </div>
+      </div>
+
+        <div class="flex-container yes--yes1" style="display: none">
+          <p>Clean Terminals and try starting again.</p>
+          <button type="button" class="btn" onclick="buttonClick('reload')">Start over</button>
+        </div>
+
+        <div class="flex-container yes--no1" style="display: none">
+          <p>Replace cables and try again.</p>
+          <button type="button" class="btn" onclick="buttonClick('reload')">Start over</button>
+        </div>
+      
+    
+
+    
+      <div class="flex-container no" style="display: none">
+        <p>Does the car make a clicking noise?</p>
+        <div class="flex-buttons">
+          <button type="button" class="btn btn-no--yes1" onclick="buttonClick('no yes1')">Yes</button>
+          <button type="button" class="btn btn-no--no1" onclick="buttonClick('no no1')">No</button>
+        </div>
+      </div>
+
+        <div class="flex-container no--yes1" style="display: none">
+          <p>Replace the battery.</p>
+          <p>Replace the battery.</p>
+          <p>Replace the battery.</p>
+          <p>Replace the battery.</p>
+          <p>Replace the battery.</p>
+          <p>Replace the battery.</p>
+          <p>Replace the battery.</p>
+          <p>Replace the battery.</p>
+          <p>Replace the battery.</p>
+          <p>Replace the battery.</p>
+          <p>Replace the battery.</p>
+          <p>Replace the battery.</p>
+          <p>Replace the battery.</p>
+          <p>Replace the battery.</p>
+          <p>Replace the battery.</p>
+          <p>Replace the battery.</p>
+          <p>Replace the battery.</p>
+          <p>Replace the battery.</p>
+          <p>Replace the battery.</p>
+          <p>Replace the battery.</p>
+          <p>Replace the battery.</p>
+          <p>Replace the battery.</p>
+          <p>Replace the battery.</p>
+          
+          <button type="button" class="btn" onclick="buttonClick('reload')">Start over</button>
+        </div>
+
+        <div class="flex-container no--no1" style="display: none">
+          <p>Does the car crank up but fail to start?</p>
+          <div class="flex-buttons">
+            <button type="button" class="btn btn-no--yes2" onclick="buttonClick('no yes2')">Yes</button>
+            <button type="button" class="btn btn-no--no2" onclick="buttonClick('no no2')">No</button>
+          </div>
+        </div>
+
+        <div class="flex-container no--yes2" style="display: none">
+          <p>Check spark plug connections.</p>
+          <button type="button" class="btn" onclick="buttonClick('reload')">Start over</button>
+        </div>
+
+        <div class="flex-container no--no2" style="display: none">
+          <p>Does the engine start then die?</p>
+          <div class="flex-buttons">
+            <button type="button" class="btn btn-no--yes3" onclick="buttonClick('no yes3')">Yes</button>
+          </div>
+        </div>
+
+        <div class="flex-container no--yes3" style="display: none">
+          <p>Does your car have fuel injection?</p>
+          <div class="flex-buttons">
+            <button type="button" class="btn btn-no--yes4" onclick="buttonClick('no yes4')">Yes</button>
+            <button type="button" class="btn btn-no--no3" onclick="buttonClick('no no3')">No</button>
+          </div>
+        </div>
+
+        <div class="flex-container no--no3" style="display: none">
+          <p>Check to ensure the choke is opening and closing</p>
+          <button type="button" class="btn" onclick="buttonClick('reload')">Start over</button>
+        </div>
+
+        <div class="flex-container no--yes4" style="display: none">
+          <p>Get it in for service.</p>
+          <button type="button" class="btn" onclick="buttonClick('reload')">Start over</button>
+        </div>
+      
+    </section>
+
+    <script defer="" src="./app.js"></script>
+  </body>
+</html>
